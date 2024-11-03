@@ -1,0 +1,27 @@
+spring:
+  redis:
+    host: redis-15641.c212.ap-south-1-1.ec2.redis.redis-cloud.com
+    port: 15641
+    password: IuKun8IDMckgGmlgRHbhKhQAId4BeQkt
+  data:
+    mongodb:
+      uri:mongodb+srv://shubhamchoudhary0071:KDXh0dXps5dbCbuP@cluster0.kjstm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0,
+      database:journals,
+      auto-index-creation:true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: shubhamsur09@gmail.com
+    password: abjhjdjnnlmmlkm
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
